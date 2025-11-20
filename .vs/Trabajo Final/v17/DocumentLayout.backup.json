@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|c:\\users\\asus tuf\\documents\\u\\programacion 2\\trabajo final\\docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|solutionrelative:docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|c:\\users\\asus tuf\\documents\\u\\programacion 2\\trabajo final\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|solutionrelative:formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\panelusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|solutionrelative:panelusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\bin\\Debug\\usuario.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -13,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\PanelUsuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|solutionrelative:PanelUsuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\panelusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|solutionrelative:panelusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\GuardarSesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,23 +58,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "usuario.json",
-              "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\bin\\Debug\\usuario.json",
-              "RelativeDocumentMoniker": "bin\\Debug\\usuario.json",
-              "ToolTip": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\bin\\Debug\\usuario.json",
-              "RelativeToolTip": "bin\\Debug\\usuario.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-20T17:14:53.451Z"
+              "DocumentIndex": 0,
+              "Title": "Docente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\Docente.cs",
+              "RelativeDocumentMoniker": "Docente.cs",
+              "ToolTip": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\Docente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Docente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T22:46:47.6Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PanelUsuario.cs",
               "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\PanelUsuario.cs",
               "RelativeDocumentMoniker": "PanelUsuario.cs",
@@ -78,22 +82,24 @@
               "RelativeToolTip": "PanelUsuario.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T16:24:54.985Z"
+              "WhenOpened": "2025-11-20T16:24:54.985Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "PanelUsuario.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\PanelUsuario.cs",
               "RelativeDocumentMoniker": "PanelUsuario.cs",
-              "ToolTip": "C:\\Archivos to joya\\SebasUniversity2doSEMESTRE\\Programaci\u00F3n1dosemestre\\Trabajo Final\\PanelUsuario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Archivos to joya\\SebasUniversity2doSEMESTRE\\Programaci\u00F3n1dosemestre\\Trabajo Final\\PanelUsuario.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\PanelUsuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PanelUsuario.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-20T16:24:45.407Z"
+              "WhenOpened": "2025-11-20T16:24:45.407Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "GuardarSesion.cs",
               "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\GuardarSesion.cs",
               "RelativeDocumentMoniker": "GuardarSesion.cs",
@@ -105,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\Usuario.cs",
               "RelativeDocumentMoniker": "Usuario.cs",
@@ -117,7 +123,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "FormLogin.cs",
               "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\FormLogin.cs",
               "RelativeDocumentMoniker": "FormLogin.cs",
@@ -130,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -142,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "Form1.Designer.cs",
@@ -154,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FormLogin.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\FormLogin.cs",
               "RelativeDocumentMoniker": "FormLogin.cs",
@@ -166,7 +172,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 3,
+              "Title": "usuario.json",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\bin\\Debug\\usuario.json",
+              "RelativeDocumentMoniker": "bin\\Debug\\usuario.json",
+              "ToolTip": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\bin\\Debug\\usuario.json",
+              "RelativeToolTip": "bin\\Debug\\usuario.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-20T17:14:53.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
@@ -178,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",

@@ -15,9 +15,18 @@ namespace Trabajo_Final
     {
         private Usuario usuario = new Usuario();
         private List<Usuario> usuarios;
+
+        enum TipoUser
+        {
+            Seleccionar,
+            Estudiante,
+            Profesor
+
+        }
         public FormLogin()
         {
             InitializeComponent();
+            tipouser.DataSource = Enum.GetValues(typeof(TipoUser));
         }
 
         private void Crearlabel(TextBox textbox, string mensaje)
@@ -109,6 +118,11 @@ namespace Trabajo_Final
                 new PanelProfesor(usuario).Show();*/
 
             this.Hide();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

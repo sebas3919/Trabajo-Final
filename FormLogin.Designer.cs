@@ -36,11 +36,12 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.tipouser = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(313, 247);
+            this.button1.Location = new System.Drawing.Point(62, 282);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(85, 23);
             this.button1.TabIndex = 1;
@@ -50,7 +51,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(316, 303);
+            this.button2.Location = new System.Drawing.Point(62, 322);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(82, 23);
             this.button2.TabIndex = 2;
@@ -60,7 +61,7 @@
             // 
             // txtCódigo
             // 
-            this.txtCódigo.Location = new System.Drawing.Point(313, 114);
+            this.txtCódigo.Location = new System.Drawing.Point(47, 119);
             this.txtCódigo.Name = "txtCódigo";
             this.txtCódigo.Size = new System.Drawing.Size(100, 20);
             this.txtCódigo.TabIndex = 3;
@@ -68,7 +69,7 @@
             // 
             // txtContrasena
             // 
-            this.txtContrasena.Location = new System.Drawing.Point(313, 162);
+            this.txtContrasena.Location = new System.Drawing.Point(47, 182);
             this.txtContrasena.Name = "txtContrasena";
             this.txtContrasena.Size = new System.Drawing.Size(100, 20);
             this.txtContrasena.TabIndex = 4;
@@ -76,7 +77,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(339, 231);
+            this.label2.Location = new System.Drawing.Point(231, 300);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 5;
@@ -94,26 +95,35 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(310, 85);
+            this.label4.Location = new System.Drawing.Point(44, 92);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(37, 13);
+            this.label4.Size = new System.Drawing.Size(40, 13);
             this.label4.TabIndex = 7;
-            this.label4.Text = "correo";
+            this.label4.Text = "Código";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(313, 146);
+            this.label5.Location = new System.Drawing.Point(44, 166);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(61, 13);
             this.label5.TabIndex = 8;
             this.label5.Text = "Contraseña";
+            // 
+            // tipouser
+            // 
+            this.tipouser.FormattingEnabled = true;
+            this.tipouser.Location = new System.Drawing.Point(47, 246);
+            this.tipouser.Name = "tipouser";
+            this.tipouser.Size = new System.Drawing.Size(121, 21);
+            this.tipouser.TabIndex = 9;
             // 
             // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.tipouser);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -140,5 +150,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ComboBox tipouser;
     }
 }

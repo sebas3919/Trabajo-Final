@@ -30,3 +30,4 @@ C:\Users\ASUS TUF\Documents\U\programacion 2\Trabajo final\obj\Debug\Trabajo Fin
 C:\Users\ASUS TUF\Documents\U\programacion 2\Trabajo final\obj\Debug\Trabajo .D6CA4A42.Up2Date
 C:\Users\ASUS TUF\Documents\U\programacion 2\Trabajo final\obj\Debug\Trabajo Final.exe
 C:\Users\ASUS TUF\Documents\U\programacion 2\Trabajo final\obj\Debug\Trabajo Final.pdb
+C:\Archivos to joya\SebasUniversity2doSEMESTRE\Programación1dosemestre\Trabajo Final\obj\Debug\Trabajo_Final.Docente.resources

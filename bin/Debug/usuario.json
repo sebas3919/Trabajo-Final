@@ -1,16 +1,9 @@
 [
   {
-    "Nombre": "sebas",
-    "Gmail": "sebas@gmail.com",
-    "Password": "halo1234",
-    "TipoUsuario": "Profesor",
-    "CodigoEstudiantil": null,
-    "Edad": 0
-  },
-  {
     "Nombre": "pepe",
     "Gmail": "pepe@gmail.com",
     "Password": "pepe123",
+    "Notas": null,
     "TipoUsuario": "Estudiante",
     "CodigoEstudiantil": "123456",
     "Edad": 0

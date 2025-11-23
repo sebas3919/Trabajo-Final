@@ -23,9 +23,9 @@ namespace Trabajo_Final
         }
         private void CargarDatos()
         {
-            txtNombre.Text = estudiante.Nombre;
-            txtGmail.Text = estudiante.Gmail;
-            txtCodigo.Text = estudiante.CodigoEstudiantil;
+            lblNombre.Text = estudiante.Nombre;
+            lblCorreo.Text = estudiante.Gmail;
+            lblCodigo.Text = estudiante.CodigoEstudiantil;
             txtNotas.Text = estudiante.Notas;
         }
 

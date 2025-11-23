@@ -31,3 +31,4 @@ C:\Users\ASUS TUF\Documents\U\programacion 2\Trabajo final\obj\Debug\Trabajo Fin
 C:\Users\ASUS TUF\Documents\U\programacion 2\Trabajo final\obj\Debug\Trabajo Final.pdb
 C:\Users\ASUS TUF\Documents\U\programacion 2\Trabajo final\obj\Debug\Trabajo_Final.Docente.resources
 C:\Users\ASUS TUF\Documents\U\programacion 2\Trabajo final\obj\Debug\Trabajo_Final.FormEditarNotas.resources
+C:\Users\ASUS TUF\Documents\U\programacion 2\Trabajo final\obj\Debug\Trabajo_Final.AgregarEstudiante.resources

@@ -114,5 +114,15 @@ namespace Trabajo_Final
                 CargarUsuarios();
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AgregarEstudiante form = new AgregarEstudiante();
+
+            if (form.ShowDialog() == DialogResult.OK)
+            {
+                CargarUsuarios();  
+            }
+        }
     }
 }

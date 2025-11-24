@@ -1,18 +1,20 @@
 [
   {
-    "Nombre": "sebas",
-    "Gmail": "sebas@gmail.com",
-    "Password": "halo1234",
+    "Nombre": "PEPE",
+    "Gmail": "pepe@gmail.com",
+    "Password": "halo123",
+    "Notas": null,
     "TipoUsuario": "Profesor",
-    "CodigoEstudiantil": null,
+    "CodigoEstudiantil": "123456",
     "Edad": 0
   },
   {
-    "Nombre": "pepe",
-    "Gmail": "pepe@gmail.com",
-    "Password": "pepe123",
-    "TipoUsuario": "Estudiante",
-    "CodigoEstudiantil": "123456",
+    "Nombre": "jota",
+    "Gmail": "jota@gmail.com",
+    "Password": "jota1234",
+    "Notas": null,
+    "TipoUsuario": null,
+    "CodigoEstudiantil": "444",
     "Edad": 0
   }
 ]

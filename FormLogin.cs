@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -15,6 +16,7 @@ namespace Trabajo_Final
     {
         private Usuario usuario = new Usuario();
         private List<Usuario> usuarios;
+        private const string CodigoDocente = "ABC123";
 
         enum TipoUser
         {
@@ -42,8 +44,35 @@ namespace Trabajo_Final
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Form formularioRegistro = new Form1();
-            formularioRegistro.ShowDialog();
+            string tipo = tipouser.SelectedItem.ToString();
+
+            if (tipo == "Seleccionar")
+            {
+                MessageBox.Show("Seleccione un tipo de usuario.");
+                return;
+            }
+
+            if (tipo == "Estudiante")
+            {
+                // Registro normal
+                Form formularioRegistro = new Form1();
+                formularioRegistro.ShowDialog();
+                return;
+            }
+
+            if (tipo == "Profesor")
+            {
+                // Validar código
+                if (txtcoddoc.Text == CodigoDocente)
+                {
+                    Form formularioRegistro = new Form1();
+                    formularioRegistro.ShowDialog();
+                }
+                else
+                {
+                    MessageBox.Show("Código de acceso incorrecto. Solo personal autorizado puede registrarse como docente.");
+                }
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -92,37 +121,67 @@ namespace Trabajo_Final
             }
 
 
+            String input = txtCódigo.Text.Trim();  // Puede ser código o correo
+
+
             var usuarios = usuario.Readjason();
+
             var user = usuarios.FirstOrDefault(u =>
-               string.Equals(u.CodigoEstudiantil, txtCódigo.Text, StringComparison.OrdinalIgnoreCase) &&
-               u.Password == txtContrasena.Text);
+                (
+                    string.Equals(u.CodigoEstudiantil, input, StringComparison.OrdinalIgnoreCase) ||
+                    string.Equals(u.Gmail, input, StringComparison.OrdinalIgnoreCase)
+                )
+                && u.Password == contrasena
+            );
 
             if (user != null)
             {
                 MessageBox.Show($"Bienvenido {user.Nombre}!");
-                var sesion = new GuardarSesion { Gmail = user.CodigoEstudiantil, MantenerSesion = true };
+
+                var sesion = new GuardarSesion
+                {
+                    Gmail = user.Gmail,
+                    MantenerSesion = true
+                };
                 sesion.SaveSesion(sesion);
 
-                PanelUsuario panel = new PanelUsuario(user);
-                panel.Show();
+                if (user.TipoUsuario == "Profesor")
+                {
+                    new Docente(user).Show();
+                }
+                else
+                {
+                    new PanelUsuario(user).Show();
+                }
+
                 this.Hide();
+                return;
             }
             else
             {
-                MessageBox.Show("Correo o contraseña incorrectos");
+                MessageBox.Show("Código/Correo o contraseña incorrectos");
+                return;
             }
-
-
-       
-            /*else
-                new PanelProfesor(usuario).Show();*/
-
-            this.Hide();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void tipouser_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (tipouser.SelectedItem.ToString() == "Profesor")
+            {
+                txtcoddoc.Visible = true;
+                label2.Visible = true;
+            }
+            else
+            {
+                txtcoddoc.Visible = false;
+                label2.Visible = false;
+                txtcoddoc.Text = "";
+            }
         }
     }
 }

@@ -12,7 +12,7 @@
     "Nombre": "Alonso",
     "Gmail": "alonso231@gmail.com",
     "Password": null,
-    "Notas": "Sin notas",
+    "Notas": "67",
     "TipoUsuario": null,
     "CodigoEstudiantil": "COD2453913099",
     "Edad": 0
@@ -21,9 +21,18 @@
     "Nombre": "pedro",
     "Gmail": "pedro231@gmail.com",
     "Password": null,
-    "Notas": "Sin notas",
+    "Notas": "XD",
     "TipoUsuario": null,
     "CodigoEstudiantil": "COD4469361170",
+    "Edad": 0
+  },
+  {
+    "Nombre": "señor jose",
+    "Gmail": "Jose@gmail.com",
+    "Password": null,
+    "Notas": "AAAAAAAA",
+    "TipoUsuario": null,
+    "CodigoEstudiantil": "COD4668127795",
     "Edad": 0
   }
 ]

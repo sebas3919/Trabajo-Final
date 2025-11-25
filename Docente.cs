@@ -12,17 +12,20 @@ namespace Trabajo_Final
 {
     public partial class Docente : Form
     {
+        private Usuario docenteActual;
         private Usuario usuario = new Usuario();
         private List<Usuario> usuarios;
         public Docente()
         {
-            InitializeComponent(); 
+            InitializeComponent();
+
             ConfigurarDataGridUsuarios();
             CargarUsuarios();
             //eliminarEstudiante();
         }
 
-        
+
+
         private void ConfigurarDataGridUsuarios()
         {
             dataGridView1.AutoGenerateColumns = false;
@@ -73,9 +76,9 @@ namespace Trabajo_Final
                 dataGridView1.Columns.Add(btnEliminar);
             }
         }*/
-       
-       
-        
+
+
+
 
         private void CargarUsuarios()
         {
@@ -121,7 +124,20 @@ namespace Trabajo_Final
 
             if (form.ShowDialog() == DialogResult.OK)
             {
-                CargarUsuarios();  
+                CargarUsuarios();
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            EditarPerfilDocente editardocente = new EditarPerfilDocente(docenteActual);
+
+            if (editardocente.ShowDialog() == DialogResult.OK)
+            {
+                // Recargar por si cambió nombre o contraseña del docente
+                var lista = usuario.Readjason();
+                docenteActual = lista.FirstOrDefault(x => x.Gmail == docenteActual.Gmail);
+
             }
         }
     }

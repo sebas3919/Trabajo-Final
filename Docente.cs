@@ -91,11 +91,12 @@ namespace Trabajo_Final
             var lista = usuario.Readjason();
 
             // Filtrar solo estudiantes
-            var soloEstudiantes = lista
+            usuarios = lista
                 .Where(x => x.TipoUsuario == "Estudiante")
                 .ToList();
 
-            dataGridView1.DataSource = soloEstudiantes;
+            dataGridView1.DataSource = null;
+            dataGridView1.DataSource = usuarios;
         }
         private void button1_Click(object sender, EventArgs e)
         {

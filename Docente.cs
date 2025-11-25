@@ -18,12 +18,18 @@ namespace Trabajo_Final
         public Docente()
         {
             InitializeComponent();
-
+            //docenteActual = docente;
+            //ConfigurarDataGridUsuarios();
+            //CargarUsuarios();
+            
+        }
+        public Docente(Usuario docente)
+        {
+            InitializeComponent();
+            docenteActual = docente;  // <-- AQUÍ SE ASIGNA
             ConfigurarDataGridUsuarios();
             CargarUsuarios();
-            //eliminarEstudiante();
         }
-
 
 
         private void ConfigurarDataGridUsuarios()
@@ -82,9 +88,14 @@ namespace Trabajo_Final
 
         private void CargarUsuarios()
         {
-            usuarios = usuario.Readjason();
-            dataGridView1.DataSource = null;
-            dataGridView1.DataSource = usuarios;
+            var lista = usuario.Readjason();
+
+            // Filtrar solo estudiantes
+            var soloEstudiantes = lista
+                .Where(x => x.TipoUsuario == "Estudiante")
+                .ToList();
+
+            dataGridView1.DataSource = soloEstudiantes;
         }
         private void button1_Click(object sender, EventArgs e)
         {

@@ -39,76 +39,45 @@ namespace Trabajo_Final
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string codigo = txtCódigo.Text.Trim();
+            string usuarioIngresado = txtCódigo.Text.Trim();   // Puede ser Código o Gmail
             string contrasena = txtContrasena.Text.Trim();
-            
-
-
-            foreach (var control in Controls)
-            {
-                if (control is TextBox textbox)
-                {
-                    TextBox textBox = (TextBox)control;
-                    if (textBox.Name == "password")
-                    {
-                        if (string.IsNullOrWhiteSpace(textBox.Text))
-                        {
-                            Crearlabel(textBox, "El campo " + textBox.Tag + " es requerido");
-
-                        }
-                        else if (textBox.Text.Length < 6)
-                        {
-                            Crearlabel(textBox, "El campo " + textBox.Tag + " debe tener al menos 6 caracteres");
-
-                        }
-                    }
-
-                    /* else if (textBox.Name == "email")
-                     {
-                         if (!Regex.IsMatch(textBox.Text, @"^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"))
-                         {
-                             Crearlabel(textBox, "Debe ser un correo válido");
-
-                         }
-                     }*/
-                  
-
-                        else if (string.IsNullOrWhiteSpace(textBox.Text))
-                    {
-                        Crearlabel(textBox, "El campo " + textBox.Tag + " es requerido");
-
-                    }
-                }
-
-            }
-
 
             var usuarios = usuario.Readjason();
-            var user = usuarios.FirstOrDefault(u =>
-               string.Equals(u.CodigoEstudiantil, txtCódigo.Text, StringComparison.OrdinalIgnoreCase) &&
-               u.Password == txtContrasena.Text);
 
-            if (user != null)
+            // 1️ Buscar estudiante por código
+            var estudiante = usuarios.FirstOrDefault(u =>
+                u.TipoUsuario == "Estudiante" &&
+                string.Equals(u.CodigoEstudiantil, usuarioIngresado, StringComparison.OrdinalIgnoreCase) &&
+                u.Password == contrasena);
+
+            // 2️ Buscar docente por correo
+            var docente = usuarios.FirstOrDefault(u =>
+                u.TipoUsuario == "Profesor" &&
+                string.Equals(u.Gmail, usuarioIngresado, StringComparison.OrdinalIgnoreCase) &&
+                u.Password == contrasena);
+
+            if (estudiante != null)
             {
-                MessageBox.Show($"Bienvenido {user.Nombre}!");
-                var sesion = new GuardarSesion { Gmail = user.CodigoEstudiantil, MantenerSesion = true };
-                sesion.SaveSesion(sesion);
+                MessageBox.Show($"Bienvenido {estudiante.Nombre}");
 
-                PanelUsuario panel = new PanelUsuario(user);
+                PanelUsuario panel = new PanelUsuario(estudiante);
                 panel.Show();
                 this.Hide();
+                return;
             }
-            else
+
+            if (docente != null)
             {
-                MessageBox.Show("Correo o contraseña incorrectos");
+                MessageBox.Show($"Bienvenido profesor {docente.Nombre}");
+
+                Docente formDocente = new Docente(docente);   // ⬅ AHORA docActual NO ES NULL
+                formDocente.Show();
+                this.Hide();
+                return;
             }
 
-
-       
-            /*else
-                new PanelProfesor(usuario).Show();*/
-
-            this.Hide();
+            // Si no coincide nada
+            MessageBox.Show("Usuario o contraseña incorrectos");
         }
     }
 }

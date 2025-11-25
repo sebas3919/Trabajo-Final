@@ -1,0 +1,192 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|c:\\users\\asus tuf\\documents\\u\\programacion 2\\trabajo final\\agregarestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|solutionrelative:agregarestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|c:\\users\\asus tuf\\documents\\u\\programacion 2\\trabajo final\\agregarestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|solutionrelative:agregarestudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|c:\\users\\asus tuf\\documents\\u\\programacion 2\\trabajo final\\docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|solutionrelative:docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|c:\\users\\asus tuf\\documents\\u\\programacion 2\\trabajo final\\docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|solutionrelative:docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|c:\\users\\asus tuf\\documents\\u\\programacion 2\\trabajo final\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|c:\\users\\asus tuf\\documents\\u\\programacion 2\\trabajo final\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|c:\\users\\asus tuf\\documents\\u\\programacion 2\\trabajo final\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|c:\\users\\asus tuf\\documents\\u\\programacion 2\\trabajo final\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|solutionrelative:usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|c:\\users\\asus tuf\\documents\\u\\programacion 2\\trabajo final\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|solutionrelative:formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|c:\\users\\asus tuf\\documents\\u\\programacion 2\\trabajo final\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{85648C13-D66D-4FDF-97A1-412314845FF9}|Trabajo Final.csproj|solutionrelative:formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:51:46.489Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAQwI0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:51:49.51Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AgregarEstudiante.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\AgregarEstudiante.cs",
+              "RelativeDocumentMoniker": "AgregarEstudiante.cs",
+              "ToolTip": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\AgregarEstudiante.cs*",
+              "RelativeToolTip": "AgregarEstudiante.cs*",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAQwHUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T03:08:05.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AgregarEstudiante.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\AgregarEstudiante.cs",
+              "RelativeDocumentMoniker": "AgregarEstudiante.cs",
+              "ToolTip": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\AgregarEstudiante.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "AgregarEstudiante.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T03:08:03.551Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T03:03:53.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\FormLogin.cs",
+              "RelativeDocumentMoniker": "FormLogin.cs",
+              "ToolTip": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\FormLogin.cs",
+              "RelativeToolTip": "FormLogin.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwDIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T03:01:17.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\FormLogin.cs",
+              "RelativeDocumentMoniker": "FormLogin.cs",
+              "ToolTip": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\FormLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T03:01:15.377Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\Usuario.cs",
+              "RelativeDocumentMoniker": "Usuario.cs",
+              "ToolTip": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\Usuario.cs",
+              "RelativeToolTip": "Usuario.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAxwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:53:55.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Docente.cs",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\Docente.cs",
+              "RelativeDocumentMoniker": "Docente.cs",
+              "ToolTip": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\Docente.cs",
+              "RelativeToolTip": "Docente.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAASwIkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:50:35.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Docente.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\Docente.cs",
+              "RelativeDocumentMoniker": "Docente.cs",
+              "ToolTip": "C:\\Users\\ASUS TUF\\Documents\\U\\programacion 2\\Trabajo final\\Docente.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Docente.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T02:50:29.402Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

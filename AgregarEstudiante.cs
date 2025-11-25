@@ -100,15 +100,14 @@ namespace Trabajo_Final
                 return;
             }
 
-            
-            
             Usuario nuevo = new Usuario()
             {
                 Nombre = textBox1.Text.Trim(),
                 Gmail = textBox2.Text.Trim(),
                 CodigoEstudiantil = GenerarCodigo(),
-                Notas = "Sin notas"
-            };
+                Notas = "Sin notas",
+                TipoUsuario = "Estudiante"
+            }; 
 
             usuarios.Add(nuevo);
             gestorUsuarios.SavetoJson(usuarios);

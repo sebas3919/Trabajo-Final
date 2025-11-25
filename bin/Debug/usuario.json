@@ -1,0 +1,38 @@
+[
+  {
+    "Nombre": "aaaa",
+    "Gmail": "aaaaa",
+    "Password": null,
+    "Notas": "342342",
+    "TipoUsuario": null,
+    "CodigoEstudiantil": "COD8483712116",
+    "Edad": 0
+  },
+  {
+    "Nombre": "Andres",
+    "Gmail": "gaaradesune@gmail.com",
+    "Password": "1234567",
+    "Notas": null,
+    "TipoUsuario": "Profesor",
+    "CodigoEstudiantil": "453453454",
+    "Edad": 1234567
+  },
+  {
+    "Nombre": "aaaa",
+    "Gmail": "124131",
+    "Password": null,
+    "Notas": "Sin notas",
+    "TipoUsuario": null,
+    "CodigoEstudiantil": "COD8383503464",
+    "Edad": 0
+  },
+  {
+    "Nombre": "3134134",
+    "Gmail": "4235345345",
+    "Password": null,
+    "Notas": "Sin notas",
+    "TipoUsuario": "Estudiante",
+    "CodigoEstudiantil": "COD1404812956",
+    "Edad": 0
+  }
+]

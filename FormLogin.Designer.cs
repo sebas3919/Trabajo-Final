@@ -37,6 +37,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.tipouser = new System.Windows.Forms.ComboBox();
+            this.txtcoddoc = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button1
@@ -77,7 +78,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(231, 300);
+            this.label2.Location = new System.Drawing.Point(231, 230);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(35, 13);
             this.label2.TabIndex = 5;
@@ -86,7 +87,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(339, 287);
+            this.label3.Location = new System.Drawing.Point(326, 300);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(35, 13);
             this.label3.TabIndex = 6;
@@ -117,12 +118,21 @@
             this.tipouser.Name = "tipouser";
             this.tipouser.Size = new System.Drawing.Size(121, 21);
             this.tipouser.TabIndex = 9;
+            this.tipouser.SelectedIndexChanged += new System.EventHandler(this.tipouser_SelectedIndexChanged);
+            // 
+            // txtcoddoc
+            // 
+            this.txtcoddoc.Location = new System.Drawing.Point(234, 246);
+            this.txtcoddoc.Name = "txtcoddoc";
+            this.txtcoddoc.Size = new System.Drawing.Size(100, 20);
+            this.txtcoddoc.TabIndex = 10;
             // 
             // FormLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtcoddoc);
             this.Controls.Add(this.tipouser);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -151,5 +161,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox tipouser;
+        private System.Windows.Forms.TextBox txtcoddoc;
     }
 }

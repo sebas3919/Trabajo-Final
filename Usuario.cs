@@ -16,6 +16,8 @@ namespace Trabajo_Final
         public string Nombre { get; set; }
         public string Gmail { get; set; }
         public string Password { get; set; }
+        public string Notas { get; set; }
+
 
         public string TipoUsuario { get; set; } // "Estudiante" o "Profesor"
 

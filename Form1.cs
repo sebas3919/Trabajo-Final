@@ -18,22 +18,28 @@ namespace Trabajo_Final
     {
         private Usuario usuario = new Usuario();
         private List<Usuario> usuarios;
+
+        private string tipoUsuario;
         Label label1;
 
-        enum TipoUser
-        {
-            Seleccionar,
-            Estudiante,
-            Profesor
+        
 
-        }
-
-        public Form1()
+        public Form1(string tipo)
         {
             InitializeComponent();
             // label1.Text = "hola sebas";
-            tipouser.DataSource = Enum.GetValues(typeof(TipoUser));
+            
             usuarios = usuario.Readjason();
+
+            if (tipo == "Estudiante")
+            {
+                code.Enabled = true;
+            }
+            else // Profesor
+            {
+                label8.Visible = false;
+                code.Visible = false;
+            }
         }
 
 
@@ -83,9 +89,20 @@ namespace Trabajo_Final
                 usuario.Nombre = name.Text;
                 usuario.Gmail = email.Text;
                 usuario.Password = password.Text;
-                usuario.TipoUsuario = tipouser.SelectedItem.ToString();
+                //usuario.TipoUsuario = tipouser.SelectedItem.ToString();
                 usuario.CodigoEstudiantil = code.Text;
-                usuario.Edad = int.TryParse(confirm.Text, out int edad) ? edad : 0;
+                //usuario.Edad = int.TryParse(confirm.Text, out int edad) ? edad : 0;
+                usuario.TipoUsuario = tipoUsuario;
+                if (tipoUsuario == "Estudiante")
+                {
+                    usuario.CodigoEstudiantil = code.Text;
+                    usuario.Edad = int.TryParse(confirm.Text, out int edad) ? edad : 0;
+                }
+                else
+                {
+                    usuario.CodigoEstudiantil = null;
+                    usuario.Edad = 0;
+                }
                 usuarios.Add(usuario);
 
                 usuario.SavetoJson(usuarios);

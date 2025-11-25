@@ -28,11 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.name = new System.Windows.Forms.TextBox();
             this.email = new System.Windows.Forms.TextBox();
-            this.tipouser = new System.Windows.Forms.ComboBox();
             this.password = new System.Windows.Forms.TextBox();
             this.code = new System.Windows.Forms.TextBox();
             this.confirm = new System.Windows.Forms.TextBox();
@@ -44,27 +41,9 @@
             this.label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(42, 151);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Eres?";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(680, 73);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "label3";
-            // 
             // name
             // 
-            this.name.Location = new System.Drawing.Point(332, 73);
+            this.name.Location = new System.Drawing.Point(332, 64);
             this.name.Name = "name";
             this.name.Size = new System.Drawing.Size(100, 20);
             this.name.TabIndex = 5;
@@ -75,15 +54,6 @@
             this.email.Name = "email";
             this.email.Size = new System.Drawing.Size(100, 20);
             this.email.TabIndex = 6;
-            // 
-            // tipouser
-            // 
-            this.tipouser.FormattingEnabled = true;
-            this.tipouser.Location = new System.Drawing.Point(94, 143);
-            this.tipouser.Name = "tipouser";
-            this.tipouser.Size = new System.Drawing.Size(121, 21);
-            this.tipouser.TabIndex = 7;
-            this.tipouser.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // password
             // 
@@ -108,7 +78,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(558, 187);
+            this.button1.Location = new System.Drawing.Point(522, 167);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 23);
             this.button1.TabIndex = 11;
@@ -119,7 +89,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(332, 54);
+            this.label4.Location = new System.Drawing.Point(330, 48);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(42, 13);
             this.label4.TabIndex = 12;
@@ -128,7 +98,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(332, 109);
+            this.label5.Location = new System.Drawing.Point(332, 105);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(38, 13);
             this.label5.TabIndex = 13;
@@ -175,11 +145,8 @@
             this.Controls.Add(this.confirm);
             this.Controls.Add(this.code);
             this.Controls.Add(this.password);
-            this.Controls.Add(this.tipouser);
             this.Controls.Add(this.email);
             this.Controls.Add(this.name);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -188,11 +155,8 @@
         }
 
         #endregion
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox name;
         private System.Windows.Forms.TextBox email;
-        private System.Windows.Forms.ComboBox tipouser;
         private System.Windows.Forms.TextBox password;
         private System.Windows.Forms.TextBox code;
         private System.Windows.Forms.TextBox confirm;

@@ -1,11 +1,20 @@
 [
   {
-    "Nombre": "2",
-    "Gmail": "1@gmail.com",
+    "Nombre": "Andres",
+    "Gmail": "andres@gmail.com",
     "Password": "1234567",
     "Notas": null,
     "TipoUsuario": "Profesor",
-    "CodigoEstudiantil": "1234234234",
+    "CodigoEstudiantil": "353453453",
     "Edad": 1234567
+  },
+  {
+    "Nombre": "1",
+    "Gmail": "12314132",
+    "Password": null,
+    "Notas": "Sin notas",
+    "TipoUsuario": "Estudiante",
+    "CodigoEstudiantil": "COD0603897408",
+    "Edad": 0
   }
 ]

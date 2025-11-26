@@ -26,7 +26,7 @@ namespace Trabajo_Final
         public Docente(Usuario docente)
         {
             InitializeComponent();
-            docenteActual = docente;  // <-- AQUÍ SE ASIGNA
+            docenteActual = docente;  
             ConfigurarDataGridUsuarios();
             CargarUsuarios();
         }

@@ -20,18 +20,31 @@ namespace Trabajo_Final
             InitializeComponent();
             estudiante = user;
             CargarDatos();
+            button1.Click += button1_Click;
+            button2.Click += button2_Click;
+
         }
         private void CargarDatos()
         {
-            txtNombre.Text = estudiante.Nombre;
-            txtGmail.Text = estudiante.Gmail;
-            txtCodigo.Text = estudiante.CodigoEstudiantil;
+            lblNombre.Text = estudiante.Nombre;
+            lblCorreo.Text = estudiante.Gmail;
+            lblCodigo.Text = estudiante.CodigoEstudiantil;
             txtNotas.Text = estudiante.Notas;
+            txtNotas2.Text = estudiante.Notas2;
+            txtNotas3.Text = estudiante.Notas3;
+            txtNotas4.Text = estudiante.Notas4;
+            txtNotas5.Text = estudiante.Notas5;
+            txtNotas6.Text = estudiante.Notas6;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             estudiante.Notas = txtNotas.Text;
+            estudiante.Notas2 = txtNotas2.Text;
+            estudiante.Notas3 = txtNotas3.Text;
+            estudiante.Notas4 = txtNotas4.Text;
+            estudiante.Notas5 = txtNotas5.Text;
+            estudiante.Notas6 = txtNotas6.Text;
 
             usuarios = gestorUsuarios.Readjason();
 
@@ -40,6 +53,11 @@ namespace Trabajo_Final
             if (original != null)
             {
                 original.Notas = estudiante.Notas;
+                original.Notas2 = estudiante.Notas2;
+                original.Notas3 = estudiante.Notas3;
+                original.Notas4 = estudiante.Notas4;
+                original.Notas5 = estudiante.Notas5;
+                original.Notas6 = estudiante.Notas6;
                 gestorUsuarios.SavetoJson(usuarios);
             }
 
@@ -50,6 +68,11 @@ namespace Trabajo_Final
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void FormEditarNotas_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -4,7 +4,6 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
-using System.Net.NetworkInformation;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -16,6 +15,7 @@ namespace Trabajo_Final
     {
         private Usuario usuario = new Usuario();
         private List<Usuario> usuarios;
+
         private const string CodigoDocente = "ABC123";
 
         enum TipoUser
@@ -45,32 +45,21 @@ namespace Trabajo_Final
         private void button2_Click(object sender, EventArgs e)
         {
             string tipo = tipouser.SelectedItem.ToString();
-
-            if (tipo == "Seleccionar")
-            {
-                MessageBox.Show("Seleccione un tipo de usuario.");
-                return;
-            }
-
             if (tipo == "Estudiante")
             {
-                // Registro normal
-                Form formularioRegistro = new Form1();
-                formularioRegistro.ShowDialog();
+                new Form1("Estudiante").ShowDialog();
                 return;
             }
 
             if (tipo == "Profesor")
             {
-                // Validar código
                 if (txtcoddoc.Text == CodigoDocente)
                 {
-                    Form formularioRegistro = new Form1();
-                    formularioRegistro.ShowDialog();
+                    new Form1("Profesor").ShowDialog();
                 }
                 else
                 {
-                    MessageBox.Show("Código de acceso incorrecto. Solo personal autorizado puede registrarse como docente.");
+                    MessageBox.Show("Código de acceso incorrecto.");
                 }
             }
         }
@@ -79,7 +68,7 @@ namespace Trabajo_Final
         {
             string codigo = txtCódigo.Text.Trim();
             string contrasena = txtContrasena.Text.Trim();
-            
+
 
 
             foreach (var control in Controls)
@@ -109,9 +98,9 @@ namespace Trabajo_Final
 
                          }
                      }*/
-                  
 
-                        else if (string.IsNullOrWhiteSpace(textBox.Text))
+
+                    else if (string.IsNullOrWhiteSpace(textBox.Text))
                     {
                         Crearlabel(textBox, "El campo " + textBox.Tag + " es requerido");
 
@@ -121,7 +110,7 @@ namespace Trabajo_Final
             }
 
 
-            String input = txtCódigo.Text.Trim();  // Puede ser código o correo
+            string input = txtCódigo.Text.Trim();  // Puede ser código o correo
 
 
             var usuarios = usuario.Readjason();
@@ -175,9 +164,13 @@ namespace Trabajo_Final
             {
                 txtcoddoc.Visible = true;
                 label2.Visible = true;
+                button2.Visible = true;
+                button2.Enabled = true;
             }
             else
             {
+                button2.Visible = false;
+                button2.Enabled = false;
                 txtcoddoc.Visible = false;
                 label2.Visible = false;
                 txtcoddoc.Text = "";

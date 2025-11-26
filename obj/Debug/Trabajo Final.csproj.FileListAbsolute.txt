@@ -16,3 +16,41 @@ C:\Archivos to joya\SebasUniversity2doSEMESTRE\Programación1dosemestre\Trabajo 
 C:\Archivos to joya\SebasUniversity2doSEMESTRE\Programación1dosemestre\Trabajo Final\obj\Debug\Trabajo Final.exe
 C:\Archivos to joya\SebasUniversity2doSEMESTRE\Programación1dosemestre\Trabajo Final\obj\Debug\Trabajo Final.pdb
 C:\Archivos to joya\SebasUniversity2doSEMESTRE\Programación1dosemestre\Trabajo Final\obj\Debug\Trabajo Final.exe.config
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\3 copia\Trabajo Final\bin\Debug\Trabajo Final.exe.config
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\3 copia\Trabajo Final\bin\Debug\Trabajo Final.exe
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\3 copia\Trabajo Final\bin\Debug\Trabajo Final.pdb
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\3 copia\Trabajo Final\bin\Debug\Newtonsoft.Json.dll
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\3 copia\Trabajo Final\bin\Debug\Newtonsoft.Json.xml
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\3 copia\Trabajo Final\obj\Debug\Trabajo Final.csproj.AssemblyReference.cache
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\3 copia\Trabajo Final\obj\Debug\Trabajo Final.exe.config
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\3 copia\Trabajo Final\obj\Debug\Trabajo_Final.Docente.resources
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\3 copia\Trabajo Final\obj\Debug\Trabajo_Final.Form1.resources
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\3 copia\Trabajo Final\obj\Debug\Trabajo_Final.FormEditarNotas.resources
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\3 copia\Trabajo Final\obj\Debug\Trabajo_Final.FormLogin.resources
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\3 copia\Trabajo Final\obj\Debug\Trabajo_Final.PanelUsuario.resources
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\3 copia\Trabajo Final\obj\Debug\Trabajo_Final.Properties.Resources.resources
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\3 copia\Trabajo Final\obj\Debug\Trabajo Final.csproj.GenerateResource.cache
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\3 copia\Trabajo Final\obj\Debug\Trabajo Final.csproj.CoreCompileInputs.cache
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\3 copia\Trabajo Final\obj\Debug\Trabajo .D6CA4A42.Up2Date
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\3 copia\Trabajo Final\obj\Debug\Trabajo Final.exe
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\3 copia\Trabajo Final\obj\Debug\Trabajo Final.pdb
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\4copia\Trabajo Final\bin\Debug\Trabajo Final.exe.config
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\4copia\Trabajo Final\bin\Debug\Trabajo Final.exe
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\4copia\Trabajo Final\bin\Debug\Trabajo Final.pdb
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\4copia\Trabajo Final\bin\Debug\Newtonsoft.Json.dll
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\4copia\Trabajo Final\bin\Debug\Newtonsoft.Json.xml
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\4copia\Trabajo Final\obj\Debug\Trabajo Final.csproj.AssemblyReference.cache
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\4copia\Trabajo Final\obj\Debug\Trabajo Final.exe.config
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\4copia\Trabajo Final\obj\Debug\Trabajo_Final.AgregarEstudiante.resources
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\4copia\Trabajo Final\obj\Debug\Trabajo_Final.Docente.resources
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\4copia\Trabajo Final\obj\Debug\Trabajo_Final.EditarPerfilDocente.resources
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\4copia\Trabajo Final\obj\Debug\Trabajo_Final.Form1.resources
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\4copia\Trabajo Final\obj\Debug\Trabajo_Final.FormEditarNotas.resources
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\4copia\Trabajo Final\obj\Debug\Trabajo_Final.FormLogin.resources
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\4copia\Trabajo Final\obj\Debug\Trabajo_Final.PanelUsuario.resources
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\4copia\Trabajo Final\obj\Debug\Trabajo_Final.Properties.Resources.resources
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\4copia\Trabajo Final\obj\Debug\Trabajo Final.csproj.GenerateResource.cache
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\4copia\Trabajo Final\obj\Debug\Trabajo Final.csproj.CoreCompileInputs.cache
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\4copia\Trabajo Final\obj\Debug\Trabajo .D6CA4A42.Up2Date
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\4copia\Trabajo Final\obj\Debug\Trabajo Final.exe
+C:\Archivos to joya\Semestres\SebasUni Tercer Semestre\Programación2\4copia\Trabajo Final\obj\Debug\Trabajo Final.pdb

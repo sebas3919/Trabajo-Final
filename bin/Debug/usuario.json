@@ -1,0 +1,44 @@
+[
+  {
+    "Nombre": "LOCO",
+    "Gmail": "loco@gmail.com",
+    "Password": "loco123",
+    "Notas": null,
+    "Notas2": null,
+    "Notas3": null,
+    "Notas4": null,
+    "Notas5": null,
+    "Notas6": null,
+    "TipoUsuario": "Profesor",
+    "CodigoEstudiantil": null,
+    "Edad": 0
+  },
+  {
+    "Nombre": "pepe",
+    "Gmail": "pepe@gmail.com",
+    "Password": null,
+    "Notas": "4",
+    "Notas2": "4",
+    "Notas3": "5",
+    "Notas4": "1",
+    "Notas5": "3",
+    "Notas6": null,
+    "TipoUsuario": "Estudiante",
+    "CodigoEstudiantil": "COD1029405733",
+    "Edad": 0
+  },
+  {
+    "Nombre": "yepes",
+    "Gmail": "yepes@gmail.com",
+    "Password": null,
+    "Notas": "5",
+    "Notas2": "",
+    "Notas3": "",
+    "Notas4": "",
+    "Notas5": "",
+    "Notas6": null,
+    "TipoUsuario": "Estudiante",
+    "CodigoEstudiantil": "COD1394117099",
+    "Edad": 0
+  }
+]

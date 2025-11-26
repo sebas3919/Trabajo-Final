@@ -22,14 +22,23 @@ namespace Trabajo_Final
         private string tipoUsuario;
         Label label1;
 
-        
+        enum TipoUser
+        {
+            Seleccionar,
+            Estudiante,
+            Profesor
+
+        }
 
         public Form1(string tipo)
         {
             InitializeComponent();
             // label1.Text = "hola sebas";
-            
+            //tipouser.DataSource = Enum.GetValues(typeof(TipoUser));
+            tipoUsuario = tipo;
             usuarios = usuario.Readjason();
+            password.UseSystemPasswordChar = true;
+            confirm.UseSystemPasswordChar = true;
 
             if (tipo == "Estudiante")
             {
@@ -90,9 +99,8 @@ namespace Trabajo_Final
                 usuario.Gmail = email.Text;
                 usuario.Password = password.Text;
                 //usuario.TipoUsuario = tipouser.SelectedItem.ToString();
-                usuario.CodigoEstudiantil = code.Text;
-                //usuario.Edad = int.TryParse(confirm.Text, out int edad) ? edad : 0;
-                usuario.TipoUsuario = tipoUsuario;
+                usuario.TipoUsuario = tipoUsuario;  // <-- aquí se asigna automáticamente
+
                 if (tipoUsuario == "Estudiante")
                 {
                     usuario.CodigoEstudiantil = code.Text;
@@ -157,6 +165,10 @@ namespace Trabajo_Final
                     }
                     else if (string.IsNullOrWhiteSpace(textBox.Text))
                     {
+                        // Si es DOCENTE y el campo es CODE, NO validar
+                        if (tipoUsuario == "Profesor" && textBox.Name == "code")
+                            continue;
+
                         Crearlabel(textBox, "El campo " + textBox.Tag + " es requerido");
                         isValid = false;
                     }
@@ -170,6 +182,30 @@ namespace Trabajo_Final
         private void button1_Click(object sender, EventArgs e)
         {
             CrearUsuario();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+
+        private void pictureboxClick(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void mouseClick1(object sender, MouseEventArgs e)
+        {
+            password.UseSystemPasswordChar = false;
+            confirm.UseSystemPasswordChar = false;
+
+           
+        }
+
+        private void mouseLeave1(object sender, EventArgs e)
+        {
+            password.UseSystemPasswordChar = true;
+            confirm.UseSystemPasswordChar = true;
         }
     }
 }

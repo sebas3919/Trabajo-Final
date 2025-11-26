@@ -18,6 +18,12 @@ namespace Trabajo_Final
         public string Password { get; set; }
         public string Notas { get; set; }
 
+        public string Notas2 { get; set; }
+        public string Notas3 { get; set; }
+        public string Notas4 { get; set; }
+        public string Notas5 { get; set; }
+        public string Notas6 { get; set; }
+
 
         public string TipoUsuario { get; set; } // "Estudiante" o "Profesor"
 

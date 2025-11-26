@@ -12,18 +12,24 @@ namespace Trabajo_Final
 {
     public partial class Docente : Form
     {
+        private Usuario docenteActual;
         private Usuario usuario = new Usuario();
         private List<Usuario> usuarios;
-        
-        public Docente(Usuario user)
+        public Docente()
         {
-            InitializeComponent(); 
-            ConfigurarDataGridUsuarios();
-            CargarUsuarios();
-            //eliminarEstudiante();
+            InitializeComponent();
+            
+
         }
 
-        
+        public Docente(Usuario docente)
+        {
+            InitializeComponent();
+            docenteActual = docente;  // <-- AQUÍ SE ASIGNA
+            ConfigurarDataGridUsuarios();
+            CargarUsuarios();
+        }
+
         private void ConfigurarDataGridUsuarios()
         {
             dataGridView1.AutoGenerateColumns = false;
@@ -37,6 +43,27 @@ namespace Trabajo_Final
 
             dataGridView1.Columns.Add("Notas", "Notas");
             dataGridView1.Columns["Notas"].DataPropertyName = "Notas";
+
+            // NOTA 2
+            dataGridView1.Columns.Add("Nota2", "Nota 2");
+            dataGridView1.Columns["Nota2"].DataPropertyName = "Notas2";
+
+            // NOTA 3
+            dataGridView1.Columns.Add("Nota3", "Nota 3");
+            dataGridView1.Columns["Nota3"].DataPropertyName = "Notas3";
+
+            // NOTA 4
+            dataGridView1.Columns.Add("Nota4", "Nota 4");
+            dataGridView1.Columns["Nota4"].DataPropertyName = "Notas4";
+
+            // NOTA 5
+            dataGridView1.Columns.Add("Nota5", "Nota 5");
+            dataGridView1.Columns["Nota5"].DataPropertyName = "Notas5";
+
+            // NOTA 6
+            dataGridView1.Columns.Add("Nota6", "Nota 6");
+            dataGridView1.Columns["Nota6"].DataPropertyName = "Notas6";
+
 
             // Botón Editar
             DataGridViewButtonColumn btnEditar = new DataGridViewButtonColumn();
@@ -56,43 +83,51 @@ namespace Trabajo_Final
 
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
-        /*private void eliminarEstudiante()
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            usuarios = usuario.Readjason();
-            dataGridView1.DataSource = null; // Limpiar la fuente de datos
-            dataGridView1.DataSource = usuarios; // Asignar la nueva lista como fuente de datos
-            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill; // Ajustar el tamaño de las columnas
-            dataGridView1.AutoGenerateColumns = false;
-            // agregar boton editar
-            if (!dataGridView1.Columns.Contains("Eliminar"))
-            {
-                DataGridViewButtonColumn btnEliminar = new DataGridViewButtonColumn();
-                btnEliminar.HeaderText = "Eliminar";
-                btnEliminar.Name = "Eliminar";
-                btnEliminar.Text = "Eliminar";
-                btnEliminar.UseColumnTextForButtonValue = true;
-                dataGridView1.Columns.Add(btnEliminar);
-            }
-        }*/
-       
-       
-        
+          
+        }
 
         private void CargarUsuarios()
         {
-            usuarios = usuario.Readjason();
+            var lista = usuario.Readjason();
 
-            // FILTRAR SOLO ESTUDIANTES
-            var soloEstudiantes = usuarios
-                .Where(u => u.TipoUsuario == "Estudiante")
+            // Filtrar solo estudiantes
+            usuarios = lista
+                .Where(x => x.TipoUsuario == "Estudiante")
                 .ToList();
 
             dataGridView1.DataSource = null;
-            dataGridView1.DataSource = soloEstudiantes;
+            dataGridView1.DataSource = usuarios;
         }
+        private void button2_Click(object sender, EventArgs e)
+        {
+            AgregarEstudiante form = new AgregarEstudiante();
+
+            if (form.ShowDialog() == DialogResult.OK)
+            {
+                CargarUsuarios();
+            }
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            EditarPerfilDocente editardocente = new EditarPerfilDocente(docenteActual);
+
+            if (editardocente.ShowDialog() == DialogResult.OK)
+            {
+                // Recargar por si cambió nombre o contraseña del docente
+                var lista = usuario.Readjason();
+                docenteActual = lista.FirstOrDefault(x => x.Gmail == docenteActual.Gmail);
+
+            }
         }
 
         private void OnCellClick(object sender, DataGridViewCellEventArgs e)
@@ -113,13 +148,31 @@ namespace Trabajo_Final
             // ELIMINAR
             if (e.ColumnIndex == dataGridView1.Columns["Eliminar"].Index)
             {
+
                 var usuarioSeleccionado = usuarios[e.RowIndex];
+
+                // 1. Cargar TODOS los usuarios
+                var listaCompleta = usuario.Readjason();
+
+                // 2. Buscar el usuario por su Gmail o Código (mejor Gmail)
+                var userInJson = listaCompleta.FirstOrDefault(u => u.Gmail == usuarioSeleccionado.Gmail);
+
+                if (userInJson != null)
+                    listaCompleta.Remove(userInJson);
+
+                // 3. Guardar la lista completa
+                usuario.SavetoJson(listaCompleta);
+
+                // 4. Recargar solo los estudiantes al DataGridView
+                CargarUsuarios();
+                /*var usuarioSeleccionado = usuarios[e.RowIndex];
 
                 usuarios.Remove(usuarioSeleccionado);
                 usuario.SavetoJson(usuarios);
 
-                CargarUsuarios();
+                CargarUsuarios();*/
             }
+
         }
     }
 }
